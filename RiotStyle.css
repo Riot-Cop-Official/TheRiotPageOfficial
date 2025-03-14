@@ -37,7 +37,10 @@ h2 {
 h1 {
     color: #555;
 }
-
+img {
+    width: 50%;
+    height: auto;
+}
 p {
     color: #777;
 } 
