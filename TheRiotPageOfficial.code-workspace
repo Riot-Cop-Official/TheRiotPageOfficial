@@ -1,8 +1,15 @@
 {
 	"folders": [
 		{
+			"name": "TheRiotPageOfficial",
 			"path": "."
+		},
+		{
+			"name": "riotimages",
+			"path": "../riotimages"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TheRiotPageOfficial"
+	}
 }

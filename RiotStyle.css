@@ -1,0 +1,43 @@
+/* filepath: /Users/maxlobato/Documents/GitHub/TheRiotPageOfficial/styles.css */
+body {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    border: #555;
+    
+}
+
+h3 {
+    color: #ff0000;
+    font-size: 150px;
+    font-weight: bold;
+    /* font-style: ; */
+     text-decoration: overline; 
+    text-transform: uppercase;
+    
+    line-height: 0;
+    letter-spacing: 2px;
+    word-spacing: 10 px;
+   
+}
+
+h2 {
+
+    color: #ff0000 ;
+    font-size: 80px;
+    font-weight:lighter;
+    line-height: 0;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-decoration: underline;
+
+}
+h1 {
+    color: #555;
+}
+
+p {
+    color: #777;
+} 
