@@ -1,9 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const heading = document.querySelector('h1');
     heading.addEventListener('click', function() {
-        heading.style.position = 'relative';
-        heading.style.transition = 'transform 1s';
-        heading.style.transform = 'translateX(100px)';
+        heading.style.color = 'blue';
+        
     });
 
     const image = document.querySelector('img');
