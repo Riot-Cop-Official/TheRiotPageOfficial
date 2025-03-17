@@ -1,7 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
     const heading = document.querySelector('h1');
     heading.addEventListener('click', function() {
-        heading.style.color = 'blue';
+        if (heading.style.color === 'blue') {
+            heading.style.color = 'red';
+        } else {
+            heading.style.color = 'blue';
+        }
+        
         
     });
 
