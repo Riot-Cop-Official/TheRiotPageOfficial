@@ -1,7 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     const heading = document.querySelector('h1');
     heading.addEventListener('click', function() {
-       
+        heading.style.position = 'relative';
+        heading.style.transition = 'transform 1s';
+        heading.style.transform = 'translateX(100px)';
     });
 
     const image = document.querySelector('img');
@@ -12,4 +14,4 @@ document.addEventListener('DOMContentLoaded', function() {
     image.addEventListener('mouseout', function() {
         image.style.border = 'none';
     });
-}); 
+});
