@@ -1,3 +1,5 @@
+var riotscroll = 0;
+var policesiren = document.getElementById('')
 document.addEventListener('DOMContentLoaded', function() {
     const heading = document.querySelector('h1');
     heading.addEventListener('click', function() {
@@ -9,6 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
         
         
     });
+    const sirentext = document.querySelector('h1');
+    sirentext.addEventListener('mouseover', function(){
+        
+    });
 
     const image = document.querySelector('img');
     image.addEventListener('mouseover', function() {
@@ -18,4 +24,16 @@ document.addEventListener('DOMContentLoaded', function() {
     image.addEventListener('mouseout', function() {
         image.style.border = 'none';
     });
+    window.addEventListener('scroll', function() {
+        const scrollPosition = window.scrollY;
+        riotscroll = this.window.scrollY
+        if (scrollPosition > 100) {
+            heading.style.fontSize = '50px';
+            
+        } else {
+            heading.style.fontSize = '80px';
+        }
+    });
+    
+   // scrolling shit
 });

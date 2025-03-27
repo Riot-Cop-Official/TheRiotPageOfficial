@@ -2,21 +2,25 @@
 body {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #e3e3e3;
     margin: 0;
     padding: 0;
-    border: #555;
+    border: #404040;
+    border-style: double;
+    border-width: 150px;
     
 }
 
 h3 {
+    
     color: #ff0000;
     font-size: 150px;
     font-weight: bold;
     /* font-style: ; */
      text-decoration: overline; 
     text-transform: uppercase;
-    
+    text-shadow: 5px solid black;
+    padding: 10px;
     line-height: 0;
     letter-spacing: 2px;
     word-spacing: 10 px;
@@ -24,6 +28,7 @@ h3 {
 }
 
 h2 {
+    
 
     color: #ff0000 ;
     font-size: 80px;
@@ -34,13 +39,41 @@ h2 {
     text-decoration: underline;
 
 }
-h1 {
-    color: #555;
+
+table {
+    border: #404040;
+    border-width: 5px;
 }
+
+
 img {
     width: 50%;
     height: auto;
 }
 p {
     color: #777;
+    text-decoration: wavy;
+    font-style: italic;
 } 
+@keyframes sirengo {
+    0% {
+        color: red;
+    }
+    50% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+
+}
+
+#copsiren {
+
+    animation-name: sirengo;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+
+}
